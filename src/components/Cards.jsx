@@ -36,7 +36,16 @@ export default function Cards(props) {
             {props.size}
           </Typography>
         </div>
-        <Button variant="outlined">Add to cart</Button>
+        <Button
+          variant="outlined"
+          onClick={() => {
+            const { id, desc, price, size } = props;
+            const obj = { id, desc, price, size };
+            props.updateProductList(obj);
+          }}
+        >
+          Add to cart
+        </Button>
       </CardContent>
     </Card>
   );

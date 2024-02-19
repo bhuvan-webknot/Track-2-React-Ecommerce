@@ -31,8 +31,8 @@ const data = [
     imgLink:
       "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/l/d/s-st28-vebnor-original-imagq6aqgh2hzv22.jpeg?q=70&crop=false",
     productDescription: "Checkered Spread Collar Casual Shirt",
-    price: "$25.00",
-    priceInInt: 25,
+    price: "750",
+    priceInInt: 750,
     size: "XL",
   },
   {
